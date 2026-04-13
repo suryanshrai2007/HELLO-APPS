@@ -1,0 +1,16 @@
+public class HelloApp {
+    public static void main(String[] args) {
+        
+        // Check if user provided any names as command-line arguments
+        if (args.length > 0) {
+            // Use enhanced for loop to iterate through all arguments
+            for (String name : args) {
+                System.out.println("Hello " + name);
+            }
+        } else {
+            // No arguments provided, display default greeting
+            System.out.println("Hello, World!");
+        }
+        
+    }
+}
